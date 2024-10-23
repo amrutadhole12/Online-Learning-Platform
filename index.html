@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Online Learning Platform</title>
+  </head>
+  <div class="upper">
+    <a href="">
+      <img class="logo" src="logo.png" alt="logo" width="100px" />
+    </a>
+    <h1>SkillFlow - Learn Anytime, Anywhere</h1>
+    Explore a variety of courses and start learning today!
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="fb.html">FEEDBACK</a></li>
+      </ul>
+    </nav>
+  </div>
+  <body>
+    <section id="filter-section">
+      <h3>Filter Courses by Category</h3>
+      <select id="course-filter" onchange="filterCourses()">
+        <option value="all">All</option>
+        <option value="tech">Technology and Computer Science</option>
+        <option value="design">Design</option>
+        <option value="marketing">Marketing</option>
+        <option value="art">Art</option>
+        <option value="language">Languages and Communication</option>
+        <option value="soft_skill">Soft Skills</option>
+      </select>
+    </section>
+    <h2 style="color: rgb(72, 116, 5)">Available Courses</h2>
+
+    <section id="courses">
+      <div class="course_card">
+        <h3>JavaSript for Beginner</h3>
+        <p>Learn the basics of Javascript</p>
+        <a href="java.html" target="_self"
+          ><button>Start Learning...</button>
+        </a>
+      </div>
+
+      <div class="course_card">
+        <h3>Advanced C++</h3>
+        <p>Master from fundamentals of C++ to the Advanced level</p>
+        <a href=""><button>Start Learning...</button></a>
+      </div>
+
+      <div class="course_card">
+        <h3>Python for Data Science</h3>
+        <p>Learn the Python for data Science</p>
+        <a href=""><button>Start Learning...</button></a>
+      </div>
+
+      <div class="course_card">
+        <h3>UI/UX Design Principles</h3>
+        <p>Learn the Advanced UI/UX Design</p>
+        <a href="design.html" target="_self"
+          ><button>Start Learning...</button></a
+        >
+      </div>
+      <div class="course_card">
+        <h3>Graphics Design</h3>
+        <p>Learn to become a prompt Graphics Designer</p>
+        <a href=""><button>Start Learning...</button></a>
+      </div>
+
+      <div class="course_card">
+        <h3>web Design</h3>
+        <p>Learn the Full Stack Web development</p>
+        <a href=""><button>Start Learning...</button></a>
+      </div>
+
+      <div class="course_card">
+        <h3>Digital Marketing</h3>
+        <p>Lets explore the Digital Marketing Schemes</p>
+        <a href="market.html" target="_self">
+          <button>Start Learning...</button>
+        </a>
+      </div>
+
+      <div class="course_card">
+        <h3>Marketing Schemes</h3>
+        <p>Get the Idea of Upcomming Marketing Schemes</p>
+        <a href=""><button>Start Learning</button></a>
+      </div>
+      <div class="course_card">
+        <h3>Communication Skills</h3>
+        <p>Learn the English Communication</p>
+        <a href=""><button>Start Learning</button></a>
+      </div>
+
+      <div class="course_card">
+        <h3>Professional Communication</h3>
+        <p>Learn the Communication Ethics</p>
+        <a href="comm.html" target="_self"
+          ><button>Start Learning...</button>
+        </a>
+      </div>
+      <div class="course_card">
+        <h3>Fine Art</h3>
+        <p>Lets Learn the Fine Art</p>
+        <a href="art.html" target="_self">
+          <button>Start Learning</button>
+        </a>
+      </div>
+
+      <div class="course_card">
+        <h3>Digital Art</h3>
+        <p>Explore the Digital Art</p>
+        <a href=""><button>Start Learning...</button></a>
+      </div>
+    </section>
+  </body>
+  <footer class="footer">
+    <p>&copy; 2024 Your Website Name. All Rights Reserved.</p>
+    <p>
+      Follow us on: <a href="#">Facebook</a> | <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</html>
